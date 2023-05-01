@@ -16,9 +16,13 @@
 }
 
 #maintable {
-   margin-top: 100px;
+   margin-top: 100;
+   border-top-style: solid;
+   border-bottom-style:solid;
    width:90;
    cellspacing:0;
+   border-color: gray;
+   border-width: 2px;
 }
 
 
@@ -27,12 +31,12 @@ tr {
     valign: top;
     width: 50;
 }
-
-/* body {
-    color:navy;
-    font-size: 10px;
-} */
 a {
     color:#800080;
     font-size: 16;
+}
+
+body{
+    color:navy;
+    font-size: 14px;
 }
